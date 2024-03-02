@@ -39,11 +39,12 @@ class User {
         const token = jwt.sign(user.toObject(), "kutman", { expiresIn: "1h" });
 
         res.cookie("api-auth", token, {
-          secure: false,
           httpOnly: true,
-          expires: dayjs().add(7, "days").toDate(),
+          maxAge: 900000,
         });
-        res.json({ message: "Welcome Back!", user: user });
+        setTimeout(() => {
+          return res.json({ message: "Welcome Back!", user: user });
+        }, 500);
       } else {
         res.status(401).json({ error: "Invalid code or expired" });
       }
