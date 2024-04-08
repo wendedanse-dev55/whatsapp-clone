@@ -1,0 +1,14 @@
+.btn {
+  @apply cursor-pointer px-4 py-1 outline-none border-none bg-primary-main rounded-lg h-12 text-white border-0;
+
+
+  &:disabled {
+    @apply cursor-default;
+
+    background-color: #CDD8E2;
+    color: #ADBCC9;
+  }
+}
+.fullWidth {
+  @apply w-full;
+}

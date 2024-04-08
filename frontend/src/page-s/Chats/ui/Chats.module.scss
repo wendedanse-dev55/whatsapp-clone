@@ -1,0 +1,14 @@
+.ChatWrapper {
+  @apply xl:container shadow-md bg-white rounded -mt-20 h-custom-calc  flex;
+  .ChatList {
+    @apply flex-none flex-shrink-0 w-[30%] shadow-md
+  }
+}
+.ChatSearchWrapper {
+  @apply flex;
+  border-bottom: 1px solid #E9EDEF;
+}
+
+.ChatContent {
+  @apply w-full
+}

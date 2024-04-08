@@ -1,0 +1,10 @@
+.chatHeader {
+  @apply bg-gray-background px-[20px] py-[10px] flex justify-between items-center
+}
+
+.icons {
+  @apply flex;
+  div {
+    @apply mr-[20px] last:mr-0 cursor-pointer
+  }
+}

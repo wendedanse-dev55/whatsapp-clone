@@ -1,0 +1,54 @@
+html {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+  padding: 0 !important;
+}
+
+body {
+  @apply  bg-gray-main;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  @apply disabled:cursor-not-allowed disabled:pointer-events-none;
+}
+
+li {
+  @apply list-none;
+}
+
+main {
+  @apply overflow-x-hidden min-h-[50vh];
+}
+
+a {
+  @apply no-underline;
+}
+
+.swiper-slide {
+  @apply overflow-hidden;
+
+  a.hide {
+    @apply opacity-0;
+  }
+
+  &:hover a {
+    @apply opacity-100;
+  }
+
+  &.activeSlide {
+    a {
+      @apply opacity-100;
+    }
+  }
+}
+
+.ReactInputVerificationCode__container {
+  width: 100%!important;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p) {
+  @apply w-full;
+}

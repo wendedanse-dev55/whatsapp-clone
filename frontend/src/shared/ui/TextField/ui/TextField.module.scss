@@ -1,0 +1,54 @@
+.Input {
+  @apply border-b-4 border-gray-400 relative;
+  input {
+   @apply border-0 outline-0 indent-2 rounded h-[40px]
+  }
+  .InputWrapper {
+    @apply relative flex items-center;
+  }
+  &.withSearch {
+    @apply relative bg-white p-5;
+    input {
+      @apply bg-gray-background w-full px-8
+    }
+    .InputStartIcon {
+      position: absolute;
+      left: 10px;
+      &.arrow {
+        animation: 0.2s rotationArrow;
+
+      }
+      &.search {
+         animation: 0.2s rotationSearch;
+      }
+    }
+    .clear {
+      position: absolute;
+      right: 10px;
+      @apply cursor-pointer;
+    }
+  }
+  &.fullWidth {
+    width: 100%;
+  }
+}
+
+@keyframes rotationArrow {
+  from {
+    transform: rotate(-90deg)
+  }
+
+  to {
+    transform: rotate(0)
+  }
+}
+
+@keyframes rotationSearch {
+  from {
+    transform: rotate(40deg)
+  }
+
+  to {
+    transform: rotate(0)
+  }
+}

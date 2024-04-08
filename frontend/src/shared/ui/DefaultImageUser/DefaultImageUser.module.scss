@@ -1,0 +1,11 @@
+.image {
+  &.small {
+    @apply w-[40px] h-[40px]
+  }
+  &.medium {
+    @apply w-[59px] h-[59px]
+  }
+  &.large {
+    @apply w-[200px] h-[200px]
+  }
+}

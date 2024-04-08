@@ -1,0 +1,24 @@
+.loader {
+ @apply w-12 h-12 border-2 border-solid border-primary-main border-b-transparent rounded-full inline-block box-border ;
+  animation: rotation 1s linear infinite;
+}
+
+.medium {
+  @apply w-24 h-24
+}
+.large {
+  @apply w-36 h-36
+}
+
+.extra-small {
+  @apply w-[18px] h-[18px]
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

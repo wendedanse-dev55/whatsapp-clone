@@ -1,0 +1,36 @@
+.ChatHeader {
+  @apply h-[60px] bg-gray-background w-full flex justify-between items-center px-5;
+  border-left: 1px solid #DDDEDD
+}
+
+.ChatHeaderUserImage {
+  @apply w-[40px] h-[40px] mr-[13px];
+  img {
+    @apply w-full h-full object-cover rounded-full;
+  }
+}
+
+
+.ChatHeaderUser {
+  @apply flex;
+}
+
+.ChatHeaderUserInfo {
+  .date {
+    @apply text-sm text-gray-bold;
+  }
+}
+
+.ChatHeaderIcons {
+  button {
+    @apply mr-[20px] last:mr-0;
+    svg {
+      @apply text-[20px]
+    }
+    &:last-child {
+      svg {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}

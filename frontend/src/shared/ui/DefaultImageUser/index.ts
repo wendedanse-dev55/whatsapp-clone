@@ -1,0 +1,1 @@
+export { DefaultImageUser } from "./DefaultImageUser";

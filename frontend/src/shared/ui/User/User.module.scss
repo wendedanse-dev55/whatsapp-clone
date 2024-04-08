@@ -1,0 +1,45 @@
+.User {
+  @apply cursor-pointer py-2
+}
+.UserWrapper {
+  @apply flex w-full hover:bg-gray-background rounded py-3 relative;
+  &:after {
+    content :"";
+    position: absolute;
+    width: calc(100% - 80px);
+    height: 1px;
+    background-color: #E9EDEF;
+    bottom: 0;
+    right: 0;
+  }
+  &.active {
+    @apply bg-gray-background;
+  }
+}
+
+
+.UserImg {
+  @apply ml-3
+}
+
+.UserInfo {
+  @apply ml-4 w-full;
+}
+.UsernameWrapper {
+  @apply flex justify-between
+}
+.Username {
+
+
+}
+.MessageWrapper {
+  @apply flex items-center
+}
+.Message {
+  @apply ml-2
+}
+.lastDate {
+  @apply text-xs text-gray-bold mr-3;
+}
+
+
