@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df022a73-8261-4335-9d6b-f3ddab0df130" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/verify/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/chats/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/chats/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/chats/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/styles/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/styles/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/entities/api/baseUrl/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/CanvasAudio/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/CreateAudio/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/CreateAudio/ui/CreateAudio.helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/CreateAudio/ui/CreateAudio.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/CreateAudio/ui/CreateAudio.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/CreateAudio/ui/CreateAudio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/PhoneNumber/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/PhoneNumber/ui/PhoneNumber.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/PhoneNumber/ui/PhoneNumber.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/UserHeaderSearch/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/UserHeaderSearch/ui/UserHeaderSearch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/UserHeaderSearch/ui/UserHeaderSearch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/VerifyCode/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/VerifyCode/ui/VerifyCode.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/VerifyCode/ui/VerifyCode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Auth/ui/Auth.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Auth/ui/Auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Auth/ui/AuthWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Chats/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Chats/ui/Chats.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Chats/ui/Chats.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Chats/ui/ChatsWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Verify/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Verify/ui/Verify.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/page-s/Verify/ui/Verify.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/assets/icons/user-default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/hooks/useCounter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/DefaultImageUser/DefaultImageUser.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/DefaultImageUser/DefaultImageUser.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/DefaultImageUser/DefaultImageUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/DefaultImageUser/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Loader/Loader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Loader/Loader.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Loader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/MessageIsReaded/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/MessageIsReaded/ui/MessageIsReaded.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/TextField/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/TextField/ui/TextField.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/TextField/ui/TextField.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/TextField/ui/TextField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/TextField/ui/TextFieldMaterial.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Typography/Typography.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Typography/Typography.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Typography/Typography.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/Typography/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/User/User.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/User/User.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/User/User.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/User/User.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/User/UserProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/ui/User/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatContent/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatContent/ui/ChatContent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatContent/ui/ChatContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatContentFooter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatContentFooter/ui/ChatContentFooter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatContentFooter/ui/ChatContentFooter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatHeader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatHeader/ui/ChatHeader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatHeader/ui/ChatHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatList/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatList/ui/ChatList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatList/ui/ChatList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatListHeaderInterface/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatListHeaderInterface/ui/ChatListHeaderInterface.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/ChatListHeaderInterface/ui/ChatListHeaderIntrface.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/Header/ui/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/Header/ui/Header.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/Header/ui/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2bIrZcUsGEvZKDjc7yVd8VEz8rA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/pet-projects/whatsapp/frontend/src/widgets/ChatListHeaderInterface&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\projects\\pet-projects\\whatsapp\\frontend\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\projects\\pet-projects\\whatsapp\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\pet-projects\whatsapp\frontend\src\widgets\ChatListHeaderInterface" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df022a73-8261-4335-9d6b-f3ddab0df130" name="Changes" comment="" />
+      <created>1705913491537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705913491537</updated>
+      <workItem from="1705913493520" duration="976000" />
+      <workItem from="1705932698884" duration="2737000" />
+      <workItem from="1706000882023" duration="5000" />
+      <workItem from="1706008279767" duration="10990000" />
+      <workItem from="1706072863452" duration="1579000" />
+      <workItem from="1706099911358" duration="10287000" />
+      <workItem from="1706176187174" duration="48000" />
+      <workItem from="1706269812990" duration="4917000" />
+      <workItem from="1706360716301" duration="3133000" />
+      <workItem from="1706523724529" duration="4000" />
+      <workItem from="1706534403174" duration="4498000" />
+      <workItem from="1706588472980" duration="6726000" />
+      <workItem from="1707024549948" duration="6316000" />
+      <workItem from="1707121255673" duration="82000" />
+      <workItem from="1707121554381" duration="234000" />
+      <workItem from="1707123459834" duration="6000" />
+      <workItem from="1707568844549" duration="6816000" />
+      <workItem from="1707659187109" duration="4157000" />
+      <workItem from="1707715302953" duration="4439000" />
+      <workItem from="1708235410684" duration="3391000" />
+      <workItem from="1708326227785" duration="7000" />
+      <workItem from="1708338126260" duration="615000" />
+      <workItem from="1708400010541" duration="3572000" />
+      <workItem from="1708763295686" duration="11575000" />
+      <workItem from="1708839467852" duration="14141000" />
+      <workItem from="1708930049324" duration="58000" />
+      <workItem from="1709714281406" duration="3802000" />
+      <workItem from="1709785355742" duration="1202000" />
+      <workItem from="1709875007227" duration="2387000" />
+      <workItem from="1709984221308" duration="9870000" />
+      <workItem from="1710907458498" duration="4503000" />
+      <workItem from="1712576642643" duration="295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
